@@ -5,7 +5,8 @@ concepts covered with commits:
 2. sitename changed, global css mapped for entire application
 3. added new page and linking between pages
 4. get values from gatsby-config file and render on main landing page i.e., index.js
-5. retrieve config data from gatsby-config file and use it in components.
+5. retrieve config data from gatsby-config file and use it in components(class component).
+6. StaticQueryAPI from Gatsby - What if we need to retrieve same config data from gatsby-config file and render it in functional component? You cannot use this.props in functional component, thats where StaticQueryAPI came to picture.
 --------------------------------------------------------------------------
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">

@@ -4,6 +4,8 @@ import {graphql} from 'gatsby';
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import Dummy from "../components/dummy";
+
 
 class IndexPage extends React.Component {
   render() {
@@ -21,6 +23,7 @@ class IndexPage extends React.Component {
       </div>
       <Link to="/page-2/">Go to page 2</Link><br/>
       <Link to="/about/">Go to About Page</Link>
+      <Dummy/>
     </Layout>
     )
   }
