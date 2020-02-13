@@ -1,3 +1,12 @@
+`gatsby develop` to run the project.
+
+concepts covered with commits:
+1. Initial commit - Basic skeleton created using gatsby new project-name
+2. sitename changed, global css mapped for entire application
+3. added new page and linking between pages
+4. get values from gatsby-config file and render on main landing page i.e., index.js
+5. retrieve config data from gatsby-config file and use it in components.
+--------------------------------------------------------------------------
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
