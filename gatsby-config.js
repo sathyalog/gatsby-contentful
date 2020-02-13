@@ -3,6 +3,7 @@ module.exports = {
     title: `Gatsby Contentful site by Sathya`,
     description: `Basic gatsby site using contentful`,
     author: `Sathya`,
+    welcomeMsg: `welcome to gatsby contentful tutorials`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
