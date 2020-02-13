@@ -9,6 +9,7 @@ concepts covered with commits:
 6. StaticQueryAPI from Gatsby - What if we need to retrieve same config data from gatsby-config file and render it in functional component? You cannot use this.props in functional component, thats where StaticQueryAPI came to picture.
 7. What are source plugins and how we can use it by running graphql queries. Here we added a markdowns folder containing blogposts and mapped those in gatsby-config using source plugins which displays markdowns on running graphql query.
 8. Transformer Plugins - how do we actually get the contents from within the file? We can achieve using transformer plugins. For understanding, we installed gatsby-transformer-remark plugin and updated gatsby config and run the query to see the raw data(Please go through the below blog post to see the results)
+9. Templates - Create a blog post template to display all posts that you create need to have same blueprint with all styling. 
 
 For more details, please visit https://sathyalog.wordpress.com/2020/02/11/gatsby-js-and-why-its-trendy/
 
