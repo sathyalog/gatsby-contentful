@@ -21,6 +21,10 @@ module.exports = {
         path: `${__dirname}/src/markdowns`,
       },
     },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {}
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
